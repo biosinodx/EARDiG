@@ -21,9 +21,9 @@
 # workingdir: e.g. ./
 # projectname: anyname, e.g. test
 # inputgenelist.txt: file name and its root of an input gene list, should be tab limited file with header, the first colunmn is the gene names of interest.
-# backgroundgenelist.txt: file name and its root of an input background gene list, should be tab limited file with header, the first colunmn is the gene names of interest, 2rd colunmn gene start, 3rd colunmn gene end; (e.g. By Xiao Dong, for protein coding genes, as in the depository "./resource/background_genelist.txt")
+# backgroundgenelist.txt: file name and its root of an input background gene list, should be tab limited file with header, the first colunmn is the gene names of interest, 2rd colunmn gene start, 3rd colunmn gene end; (e.g. By Xiao Dong, for protein coding genes, as in the depository "./background_genelist.txt")
 # repeattime: recommend 2000
-# diseaseclass: file name and its root of a predefined disease - gene classes; (e.g. by Simon C Johnson as in the depository "./resource/diseasecat_simon_agingcell_2015.RData")
+# diseaseclass: file name and its root of a predefined disease - gene classes; (e.g. by Simon C Johnson as in the depository "./diseasecat_simon_agingcell_2015.RData")
 
 verion='v1.0.0'
 print(paste("EARDiG: Enrichment in ARD-associated GWAS: , verion", verion))
